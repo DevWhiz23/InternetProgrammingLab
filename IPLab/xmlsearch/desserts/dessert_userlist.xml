@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="dessert_user.xsl"?>
+<bio>
+    <!--Each dessert has an id, name, and description-->
+    <dessert>
+        <id>1</id>
+        <name>Chocolate Delights</name>
+        <description>Decadent chocolate desserts</description>
+    </dessert>
+    <dessert>
+        <id>2</id>
+        <name>Strawberry Dreams</name>
+        <description>Delicious strawberry-inspired treats</description>
+    </dessert>
+    <!-- Rest of the desserts -->
+    <dessert>
+        <id>3</id>
+        <name>Caramel Bliss</name>
+        <description>Rich and gooey caramel desserts</description>
+    </dessert>
+    <dessert>
+        <id>4</id>
+        <name>Lemon Heaven</name>
+        <description>Tangy and refreshing lemon-flavored sweets</description>
+    </dessert>
+    <dessert>
+        <id>5</id>
+        <name>Vanilla Delights</name>
+        <description>Classic and creamy vanilla desserts</description>
+    </dessert>
+    <dessert>
+        <id>6</id>
+        <name>Blueberry Treats</name>
+        <description>Delightful blueberry-infused desserts</description>
+    </dessert>
+    <dessert>
+        <id>7</id>
+        <name>Peanut Butter Paradise</name>
+        <description>Irresistible peanut butter creations</description>
+    </dessert>
+    <dessert>
+        <id>8</id>
+        <name>Minty Fresh</name>
+        <description>Refreshing mint-flavored indulgences</description>
+    </dessert>
+    <dessert>
+        <id>9</id>
+        <name>Coconut Delicacies</name>
+        <description>Tropical coconut-based sweets</description>
+    </dessert>
+    <dessert>
+        <id>10</id>
+        <name>Cake Extravaganza</name>
+        <description>Amazing assortment of cakes</description>
+    </dessert>
+</bio>

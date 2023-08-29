@@ -1,0 +1,30 @@
+<web-app>
+
+<!--First Servlet-->
+<servlet>
+<servlet-name>First</servlet-name>
+<servlet-class>First</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>First</servlet-name>
+<url-pattern>/servlet/First</url-pattern>
+</servlet-mapping>
+
+<!--Second Servlet-->
+<servlet>
+<servlet-name>Second</servlet-name>
+<servlet-class>Second</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Second</servlet-name>
+<url-pattern>/servlet/Second</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+</welcome-file-list>
+
+
+</web-app>

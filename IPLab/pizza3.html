@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Pizza</title>
+    </head>    
+        <body bgcolor="powderblue">
+        <strong><h1><center>Create your pizza right here!</center></h1></strong>
+        <table align="center" border="2" cellpadding="12">
+        <form>
+
+        <tr> 
+                <td>
+                   <label><b>Choose date & time:</b><input type="datetime-local" name="meetingdate"><br><br>  
+                   </label>  
+                </td>
+        </tr>
+
+        <tr>
+              <td>
+                <b>Choose size:</b><br>
+                    <input type="radio" name="psize" value="regular"> Regular <br>
+                    <input type="radio" name="psize" value="medium"> Medium <br>
+                    <input type="radio" name="psize" value="large"> Large <br>
+             </td>
+        </tr>
+           
+           <tr>
+            <td>
+              <b>Choose crust:</b><br>
+                  <input type="radio" name="pcrust" value="phand"> Classic Hand Tossed <br>
+                  <input type="radio" name="pcrust" value="pcheese"> Classic Cheese Burst <br>
+                  <input type="radio" name="pcrust" value="ppan"> Fresh Pan Pizza <br>
+                  <input type="radio" name="pcrust" value="pwheat"> 100% Thin Wheat <br>
+           </td>
+         </tr>
+
+        <tr>
+            <td>
+            <input type="checkbox" id="pextra" name="pextra" value="pextracheese">
+            <label for="pextra"> Add extra cheese</label><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            <p><b>Select your choice of toppings!</b></p>    
+            <input type="checkbox" id="ptops" name="ptops" value="ponion">
+            <label for="ptops">Onions</label><br>
+            
+            <input type="checkbox" id="ptops" name="ptops" value="ptomato">
+            <label for="ptops">Tomatoes</label><br>
+
+            <input type="checkbox" id="ptops" name="ptops" value="pjalapeno">
+            <label for="ptops">Jalapeno</label><br>
+
+            <input type="checkbox" id="ptops" name="ptops" value="polives">
+            <label for="ptops">Olives</label><br>
+
+            <input type="checkbox" id="ptops" name="ptops" value="pperi">
+            <label for="ptops">Peri Peri Chicken</label><br>
+
+            <input type="checkbox" id="ptops" name="ptops" value="pchitik">
+            <label for="ptops">Chicken Tikka</label><br>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Add cooking guidelines(less oil) etc that you'd like to convey to our chef</b><br>
+                <textarea name="message" rows="10" cols="30">
+                </textarea> 
+            </td>
+        </tr>
+    
+        <tr>
+                <td>
+                    <button onclick="myFunction()">Confirm</button>
+                    <script>
+                    function myFunction() 
+                    {
+                      alert("Pizza Order placed successfully!");
+                    }
+                    </script>
+                </td>
+                
+                <td>
+                    <input type="reset" value="RESET">
+                </td>
+
+        </tr>
+
+        </form>
+        </table>
+        </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Search a Dessert</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: rgb(139, 223, 225);
+            text-align: center;
+        }
+
+        p {
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 600;
+            color: black;
+        }
+
+        h1 {
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <h1>Choose a Dessert!</h1>
+    <form action="dessert_search.php" method="POST">
+        <p>Enter a dessert ID to get its details:</p>
+        <input type="text" name="dessert_id" required><br/>
+        <input type="submit" value="SEARCH">
+    </form>
+</body>
+</html>

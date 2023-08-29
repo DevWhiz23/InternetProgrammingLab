@@ -1,0 +1,9 @@
+<!--Ex7 -->
+<servlet>
+    <servlet-name>Database</servlet-name>
+    <servlet-class>DB</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Database</servlet-name>
+    <url-pattern>/DB</url-pattern>
+</servlet-mapping>

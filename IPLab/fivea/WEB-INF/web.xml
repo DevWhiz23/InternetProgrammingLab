@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+<servlet-name>fiveaprog</servlet-name>
+<servlet-class>InvokeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>fiveaprog</servlet-name>
+<url-pattern>/fiveA</url-pattern>
+</servlet-mapping>
+
+</web-app>

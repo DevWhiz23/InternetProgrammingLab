@@ -1,0 +1,51 @@
+<html>
+    <head>
+    <title>Payment</title>
+    <h1>Payment</h1>
+    <script>
+        function validatepayment()
+        {
+            var flag=0;
+            if(document.paymentform.cname.value!=""&&document.paymentform.cnum.value!=""&&document.paymentform.cdate.value!=""&&document.paymentform.camt.value!=""&&document.paymentform.cccv.value!="")
+            {
+                flag=1;
+            }
+            if(flag==1)
+            {
+                alert("PAYMENT SUCCESSFUL!");
+            }
+            else
+            {
+                alert("PAYMENT FAILED!");
+                document.paymentform.focus();
+            }
+        }
+        </script>
+    </head>
+    <body>
+    <form name="paymentform">
+        <div align="left">
+            <label for="cname">Name of Cardholder :</label>
+            <input type="text" id="cname" name="cname"><br>
+            
+            <label for="cnum">Card Number :</label>
+            <input type="text" id="cnum" name="cnum"><br>
+
+            <label for="cdate">Valid till :</label>
+            <input type="text" id="cdate" name="cdate"><br>
+
+            <label for="camt">Amount :</label>
+            <input type="text" id="camt" name="camt"><br>
+
+            <label for="cccv">CVV :</label>
+            <input type="text" id="cccv" name="cccv"><br>
+
+        </div><br>
+        <div align="left">
+            <input type="submit" value="SUBMIT" onClick="validatepayment()">
+            <input type="reset" value="RESET">
+        </div>
+    </form>
+    </body>
+</html>
+
